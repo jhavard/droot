@@ -1,0 +1,1 @@
+<jsp:doBody var="pageBody" scope="request"/>

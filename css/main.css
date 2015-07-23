@@ -1,0 +1,67 @@
+/* CSS Document */
+
+html {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 16pt;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    max-width: 950px;
+    margin: auto;
+    padding: 0 1em;
+//border: solid 1px red;
+}
+
+h1 {
+    width: 100%;
+    border-bottom: solid 1px black;
+}
+
+#navbar {
+    background-color: #e7e7e7;
+    border-bottom: solid 1px #999999;
+    border-top: solid 1px #999999;
+    padding: 5px 0;
+    margin: auto;
+    font-size: 14pt;
+}
+
+#navbar a {
+    color: black;
+}
+
+#navbar a:visited {
+    color: black;
+}
+#nbInner {
+    max-width: 960px;
+    margin: auto;
+}
+
+#nbInner ul {
+    display: inline;
+}
+#nb-Inner li:first-child {
+    padding-left: 0;
+}
+#nbInner li:last-child {
+    border-right: none;
+}
+
+#nbInner li {
+    border-right: solid 1px black;
+    display: inline;
+    padding: 0 1em;
+}
+
+main p {
+    font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    text-align: justify;
+}
